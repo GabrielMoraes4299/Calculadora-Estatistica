@@ -44,3 +44,4 @@ dp = desvioPadrao(lst_dados)
 cv = coeficienteVar(dp)
 
 print(f"Desvio Padrão: {dp}\nCV: {cv}%")
+# aaaaaaa
