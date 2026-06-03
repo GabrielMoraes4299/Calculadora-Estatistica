@@ -40,7 +40,35 @@ As tecnologias utilizadas neste projeto podem variar conforme o desenvolvimento,
 
 - Gabriel Chagas Fernandes de Moraes
 - Iuri Nicolau
+- Rhyan Dos Anjos Andrade
 
 ## Contexto acadêmico
 
 Este projeto foi criado como parte das atividades da disciplina de Estatística, com foco em aplicar os conhecimentos aprendidos em sala em uma solução útil e funcional.
+
+## Estrutura do Projeto
+
+```
+Calculadora-Estatistica/
+├── main.py                  # Arquivo principal do programa
+├── README.md               # Este arquivo
+├── funções/
+│   └── funcoes.py          # Módulo com funções estatísticas
+└── .git/                   # Repositório Git
+```
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+- Python 3.x instalado
+
+### Executar o programa
+
+```bash
+python main.py
+```
+
+O programa irá solicitar que você insira valores de xi e fi (frequência) para calcular:
+- Média dos dados agrupados
+- Desvio padrão
+- Coeficiente de variação
